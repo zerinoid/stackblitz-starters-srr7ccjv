@@ -5,33 +5,35 @@ const exhibitions: Work[] = [
     name: 'Lorem Ipsum Dolor Sit Amet',
     id: 1,
     images: [
-      'https://s2-techtudo.glbimg.com/L9wb1xt7tjjL-Ocvos-Ju0tVmfc=/0x0:1200x800/984x0/smart/filters:strip_icc()/i.s3.glbimg.com/v1/AUTH_08fbf48bc0524877943fe86e43087e7a/internal_photos/bs/2023/q/l/TIdfl2SA6J16XZAy56Mw/canvaai.png',
-      '/exhib1/img2.jpg',
-      '/exhib1/img3.jpg',
-      '/exhib1/img4.jpg',
-      '/exhib1/img5.jpg',
-      '/exhib1/img6.jpg',
+      "#FF0000", // Pure Red
+      "#DC143C", // Crimson
+      "#B22222", // Firebrick
+      "#8B0000", // Dark Red
+      "#FF4500", // Orange-Red
     ],
   },
   {
     name: 'Consectetur Adipiscing Elit',
     id: 2,
     images: [
-      '/exhib2/img1.jpg',
-      '/exhib2/img2.jpg',
-      '/exhib2/img3.jpg',
-      '/exhib2/img4.png',
-      '/exhib2/img5.jpg',
+      "#0000FF", // Pure Blue
+      "#1E90FF", // Dodger Blue
+      "#00008B", // Dark Blue
+      "#4169E1", // Royal Blue
+      "#00BFFF", // Deep Sky Blue
+      "#4682B4"  // Steel Blue
     ],
   },
   {
     name: 'Sed Do Eiusmod',
     id: 3,
     images: [
-      '/exhib3/img1.jpg',
-      '/exhib3/img2.png',
-      '/exhib3/img3.jpg',
-      '/exhib3/img4.jpg',
+      "#800080", // Purple
+      "#9370DB", // Medium Purple
+      "#8A2BE2", // Blue Violet
+      "#4B0082", // Indigo
+      "#DA70D6", // Orchid
+      "#9400D3"  // Dark Violet
     ],
   },
   { name: 'Tempor Incididunt', id: 4, images: [] },

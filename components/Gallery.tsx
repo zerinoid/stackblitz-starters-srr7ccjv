@@ -6,6 +6,8 @@ import gsap from 'gsap';
 import { useGSAP } from '@gsap/react';
 import { ScrollTrigger } from 'gsap/ScrollTrigger';
 import { useWork } from '@/context/WorkContext';
+import exhibitions from '@/mocks/exhibitions';
+import WorkListing from './WorkListing';
 
 gsap.registerPlugin(useGSAP, ScrollTrigger);
 
@@ -87,12 +89,22 @@ export default function Gallery() {
               }}
               className={`${styles.card} ${className}`}
             >
-              <div className={styles.img}>
-                <Image src={pic} alt={pic} width={800} height={700} />
-              </div>
+              <div className={styles.img} style={{background: pic}}>              </div>
             </div>
           );
         })}
+                  <div
+            ref={el => {
+              pinnedRef.current[pinnedRef.current.length] = el as HTMLDivElement
+            }}
+            className={`${styles.card} ${styles.scroll} bg-background`}
+          >
+            <h1 className="font-bold text-5xl mb-12">EXHIBITIONS:</h1>
+            <div className="p-8">
+              <WorkListing works={exhibitions} />
+            </div>
+          </div>
+
         <div ref={footer} className={styles.footer}></div>
       </div>
     </section>
