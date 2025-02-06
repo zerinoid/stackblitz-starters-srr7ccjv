@@ -10,6 +10,7 @@ const exhibitions: Work[] = [
       "#B22222", // Firebrick
       "#8B0000", // Dark Red
       "#FF4500", // Orange-Red
+      "#FF6347"  // Tomato
     ],
   },
   {
@@ -21,7 +22,7 @@ const exhibitions: Work[] = [
       "#00008B", // Dark Blue
       "#4169E1", // Royal Blue
       "#00BFFF", // Deep Sky Blue
-      "#4682B4"  // Steel Blue
+      //"#4682B4"  // Steel Blue
     ],
   },
   {
@@ -36,8 +37,6 @@ const exhibitions: Work[] = [
       "#9400D3"  // Dark Violet
     ],
   },
-  { name: 'Tempor Incididunt', id: 4, images: [] },
-  { name: 'Ut Labore', id: 5, images: [] },
 ];
 
 export default exhibitions;
